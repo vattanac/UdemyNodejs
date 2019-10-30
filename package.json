@@ -1,0 +1,27 @@
+{
+  "name": "udemynodejs",
+  "version": "1.0.0",
+  "description": "complete Node.js Guide",
+  "main": "myapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon myapp.js",
+    "start-server": "node myapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vattanac/UdemyNodejs.git"
+  },
+  "author": "vattanac sim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vattanac/UdemyNodejs/issues"
+  },
+  "homepage": "https://github.com/vattanac/UdemyNodejs#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
